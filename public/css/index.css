@@ -1,0 +1,43 @@
+#intro {
+    border: 1px solid rgb(56, 54, 54);
+    border-radius: 15px;
+    text-align: left;
+    font-size: 17px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#intro > img {
+    width: 400px;
+    height: auto;
+}
+
+#intro > #about-me > p {
+    margin: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+#intro > #about-me > #social-links {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+#intro > #about-me > #social-links > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    #intro > img {
+        display: none;
+    }
+}

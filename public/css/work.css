@@ -1,0 +1,18 @@
+#work {
+    margin-left: 50px;
+    margin-top: 10px;
+    max-width: 70vw;
+}
+
+.work-block {
+    margin: 20px 0 60px 0;
+}
+
+.work-block > ul {
+    margin-top: 5px;
+}
+
+.work-block > ul > li {
+    margin: 5px 0;
+    font-size: 17px;
+}

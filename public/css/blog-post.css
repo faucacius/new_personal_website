@@ -1,0 +1,10 @@
+#blog-post {
+    margin-left: 50px;
+    margin-top: 10px;
+    max-width: 70vw;
+}
+
+#blog-post > main {
+    margin: 20px 0;
+    font-size: large;
+}

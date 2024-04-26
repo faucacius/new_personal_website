@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Top 5 LLMs that you can use for free in 2024",
+        "description": "Large language models (LLMs) are revolutionizing the way we interact with computers. These AI powerhouses can generate text, translate languages, write different kinds of creative content, and answer your questions in an informative way. But with all the hype, it's easy to forget there are fantastic free LLMs available for your tinkering pleasure!",
+        "date": "2022-02-02",
+        "link": "/blogs/top-5-free-llms-2024"
+    },
+    {
+        "id": 2,
+        "title": "Future-Proof Your Skills: Top Tech Trends Developers Should Watch",
+        "description": "The tech industry is a whirlwind of innovation. New tools, frameworks, and languages emerge seemingly overnight, leaving developers scrambling to keep their skillsets relevant. But fear not, knowledge warriors! By staying ahead of the curve and familiarizing yourself with upcoming trends, you can future-proof your skills and thrive in the ever-evolving tech landscape.",
+        "date": "2022-05-13",
+        "link": "/blogs/future-proof-skills-for-developers"
+    },
+    {
+        "id": 3,
+        "title": "The Future of Work: How AI Will Reshape the Job Market in 2024",
+        "description": "Artificial intelligence (AI) is no longer a futuristic concept. It's woven into the fabric of our daily lives, from recommending movies to streamlining factory production. But its impact extends far beyond convenience; AI is poised to fundamentally reshape the job market in 2024 and beyond.",
+        "date": "2022-10-21",
+        "link": "/blogs/ai-reshape-future-jobs"
+    },
+    {
+        "id": 4,
+        "title": "Fail Fast, Learn Faster: Embracing Failure as a Stepping Stone to Success",
+        "description": "In today's fast-paced world, innovation is king. But the path to groundbreaking ideas is rarely paved with smooth sailing. It's littered with missteps, dead ends, and yes, failures.",
+        "date": "2022-10-31",
+        "link": "/blogs/failure-stepping-stone-for-success"
+    }
+]

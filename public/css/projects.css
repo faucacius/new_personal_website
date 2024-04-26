@@ -1,0 +1,47 @@
+#projects {
+    margin-left: 50px;
+    margin-top: 10px;
+    max-width: 70vw;
+}
+
+.project {
+    margin: 20px 0 60px 0;
+    border: 1px solid rgb(56, 54, 54);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.project > img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.project > .github-btn {
+    border-radius: 15px;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+}
+
+.project > .github-btn:hover {
+    background-color: rgb(238, 229, 229);
+}
+
+.project > .github-btn:active {
+    transform: scale(0.95);
+}
+
+@media only screen and (max-width: 600px) {
+    .project > img {
+        display: none;
+    }
+}

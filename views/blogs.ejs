@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | Satyam Sundaram</title>
+    <link rel="stylesheet" type="text/css" href="/css/blogs.css">
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/blogs">Blogs</a>
+            <a href="/projects">Projects</a>
+            <a href="/work">Work</a>
+        </nav>
+    </header>
+
+    <div id="blogs">
+        <h1>Blogs</h1>
+        <% let prevYear = null; let prevMonth = null; %>
+        <% blogs.forEach(blog => { %>
+            <% const date = new Date(blog.date); %>
+            <% const year = date.getFullYear(); %>
+            <% const month = date.toLocaleString('default', { month: 'long' }); %>
+            <% if (prevYear !== year) { %>
+                <% if (prevYear !== null) { %>
+                    <hr>
+                    <hr>
+                <% } %>
+                <div class="year"><%= year %><sup class="total-blogs">( <%= blogCountByYear[year] %> )</sup></div>
+            <% } %>
+            <% if (prevMonth !== month || prevYear !== year) { %>
+                <% if (prevYear == year) { %>
+                    <hr>
+                <% } %>
+                <div class="month"><%= month %><sup class="total-blogs">( <%= blogCountByMonth[year][month] %> )</sup></div>
+            <% } %>
+                <div class="blog">
+                    <h3><a href="<%= blog.link %>"><%= blog.title %></a></h3>
+                    <p><%= blog.description %></p>
+                    <p style="margin-top: 5px;"><%= blog.date %> ✦ <%= Math.floor(Math.random() * 10) + 1 %> mins ✦ Satyam Sundaram</p>
+                </div>
+            <% prevYear = year; prevMonth = month; %>
+        <% }); %>
+    </div>
+</body>
+</html>

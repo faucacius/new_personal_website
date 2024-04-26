@@ -1,0 +1,36 @@
+#blogs {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.blog {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    max-width: 70vw;
+}
+
+hr {
+    max-width: 70vw;
+}
+
+.blog h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.year {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.month {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.total-blogs {
+    font-size: 15px;
+    margin-left: 5px;
+}
