@@ -1,17 +1,24 @@
 [
     {
-        "id": 1,
-        "title": "Top 5 LLMs that you can use for free in 2024",
-        "description": "Large language models (LLMs) are revolutionizing the way we interact with computers. These AI powerhouses can generate text, translate languages, write different kinds of creative content, and answer your questions in an informative way. But with all the hype, it's easy to forget there are fantastic free LLMs available for your tinkering pleasure!",
-        "date": "2022-02-02",
-        "link": "/blogs/top-5-free-llms-2024"
+        "id": 6,
+        "title": "5 ways AI will Transform Businesses in 2024 and How You Can Stay Ahead in the Game",
+        "description": "Remember those Jetsons cartoons, with Rosie the robot whipping up dinner and robotic arms assembling cars? Artificial intelligence (AI) might not be quite that advanced yet, but it's definitely moved beyond the realm of science fiction. Today, AI is quietly transforming businesses around the world, making them more efficient, productive, and customer-centric.",
+        "date": "2024-01-06",
+        "link": "/blogs/5-ways-ai-tranform-business"
     },
     {
-        "id": 2,
-        "title": "Future-Proof Your Skills: Top Tech Trends Developers Should Watch",
-        "description": "The tech industry is a whirlwind of innovation. New tools, frameworks, and languages emerge seemingly overnight, leaving developers scrambling to keep their skillsets relevant. But fear not, knowledge warriors! By staying ahead of the curve and familiarizing yourself with upcoming trends, you can future-proof your skills and thrive in the ever-evolving tech landscape.",
-        "date": "2022-05-13",
-        "link": "/blogs/future-proof-skills-for-developers"
+        "id": 5,
+        "title": "Fundraising Explained for Beginners",
+        "description": "The startup world thrives on innovation, but even the most brilliant ideas need fuel to take off. That's where investors come in – the cavalry charging to the rescue, checkbook in hand. But securing that investment requires a crucial skill: the art of the pitch.",
+        "date": "2023-08-16",
+        "link": "/blogs/fundraising-explained"
+    },
+    {
+        "id": 4,
+        "title": "Fail Fast, Learn Faster: Embracing Failure as a Stepping Stone to Success",
+        "description": "In today's fast-paced world, innovation is king. But the path to groundbreaking ideas is rarely paved with smooth sailing. It's littered with missteps, dead ends, and yes, failures.",
+        "date": "2022-10-31",
+        "link": "/blogs/failure-stepping-stone-for-success"
     },
     {
         "id": 3,
@@ -21,10 +28,17 @@
         "link": "/blogs/ai-reshape-future-jobs"
     },
     {
-        "id": 4,
-        "title": "Fail Fast, Learn Faster: Embracing Failure as a Stepping Stone to Success",
-        "description": "In today's fast-paced world, innovation is king. But the path to groundbreaking ideas is rarely paved with smooth sailing. It's littered with missteps, dead ends, and yes, failures.",
-        "date": "2022-10-31",
-        "link": "/blogs/failure-stepping-stone-for-success"
+        "id": 2,
+        "title": "Future-Proof Your Skills: Top Tech Trends Developers Should Watch",
+        "description": "The tech industry is a whirlwind of innovation. New tools, frameworks, and languages emerge seemingly overnight, leaving developers scrambling to keep their skillsets relevant. But fear not, knowledge warriors! By staying ahead of the curve and familiarizing yourself with upcoming trends, you can future-proof your skills and thrive in the ever-evolving tech landscape.",
+        "date": "2022-05-13",
+        "link": "/blogs/future-proof-skills-for-developers"
+    },
+    {
+        "id": 1,
+        "title": "Top 5 LLMs that you can use for free in 2024",
+        "description": "Large language models (LLMs) are revolutionizing the way we interact with computers. These AI powerhouses can generate text, translate languages, write different kinds of creative content, and answer your questions in an informative way. But with all the hype, it's easy to forget there are fantastic free LLMs available for your tinkering pleasure!",
+        "date": "2022-02-02",
+        "link": "/blogs/top-5-free-llms-2024"
     }
 ]
